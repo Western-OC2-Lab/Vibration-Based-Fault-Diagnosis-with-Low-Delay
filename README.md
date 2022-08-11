@@ -32,10 +32,11 @@ Google Scholar: [OC2 Lab](https://scholar.google.com.eg/citations?user=oiebNboAA
 
 ## Citation
 
-If you find this repository useful in your research, please cite one of the following two articles as:
+If you find this repository useful in your research, please cite as:
 
 S. Aburakhia, R. Myers and A. Shami, *"A Hybrid Method for Condition Monitoring and Fault Diagnosis of Rolling Bearings With Low System Delay*," in IEEE Transactions on Instrumentation and Measurement, 2022, doi: 10.1109/TIM.2022.3198477.
 
+```
 @ARTICLE{9855510,
   author={Aburakhia, Sulaiman and Myers, Ryan and Shami, Abdallah},
   journal={IEEE Transactions on Instrumentation and Measurement}, 
@@ -45,7 +46,7 @@ S. Aburakhia, R. Myers and A. Shami, *"A Hybrid Method for Condition Monitoring 
   number={},
   pages={1-1},
   doi={10.1109/TIM.2022.3198477}}
-  
+ ```
 ## Publication
 
 <ul>
