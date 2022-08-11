@@ -1,4 +1,4 @@
-# Vibration Based Fault Diagnosis with Low Delay
+# Vibration-Based Fault Diagnosis with Low Delay
 
 This is the code for the paper entitled "**A Hybrid Method for Condition Monitoring and Fault Diagnosis of Rolling Bearings With Low System Delay**", accepted for publication in the IEEE Transactions on Instrumentation and Measurement August 2022. <br>
 Authors: Sulaiman Aburakhia, Ryan Myers, and Abdallah Shami. <br>
