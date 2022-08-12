@@ -4,7 +4,7 @@ This is the code for the paper entitled "**A Hybrid Method for Condition Monitor
 Authors: Sulaiman Aburakhia, Ryan Myers, and Abdallah Shami. <br>
 Organization: The Optimized Computing and Communications (OC2) Lab, ECE Department, Western University, London, Canada. <br>
 
-The system delay of a vibration-based condition monitoring system can be defined as ***the time the system takes to acquire input vibration segment and classify or predict the operational condition of the current state of the equipment***. In vibration-based monitoring, the current state is represented by the input segment of the generated vibration signal. Accordingly, the system delay is the sum of the time duration of input segment and the online processing time. 
+The system delay $\tau_d$ of a vibration-based condition monitoring system can be defined as ***the time the system takes to acquire input vibration segment and classify or predict the operational condition of the current state of the equipment***. In vibration-based monitoring, the current state $S_c$ is represented by the input segment $v_{in}$ of the generated vibration signal as shown in the figure below. Accordingly, the system delay is the sum of the time duration of input segment $T_{v_{in}}$ and the online processing time $T_p$ . 
 
 
 <p float>
@@ -16,7 +16,7 @@ The system delay of a vibration-based condition monitoring system can be defined
 <li>The time duration of the input segment depends on number of data points in the segment. 
 <li>The online processing time is algorithm-dependent; it involves two tasks, feature extraction (including pre-processing) and condition prediction/classification. <br>
 </ul>
-Hence, online processing time can be generally viewed as a function of the number of data points in the input segment, the size of extracted features, and available computing resources. Based on the above formulation, designing a condition monitoring system with low system delay involves three main requirements: <br>
+Hence, online processing time can be generally viewed as a function of the number of data points in the input segment, the size of extracted features, and available computing resources. Hence, designing a condition monitoring system with low system delay involves three main requirements: <br>
 
 <ol>
   <li>Extracting features of high sensitivity to fault-related transients to improve system accuracy.</li>
