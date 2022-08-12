@@ -23,12 +23,32 @@ Accordignally, the paper utilizes wavelet decomposition and Fourier analysis, an
 The Performance of the proposed method is evaluated on [the Case Western Reserve University (CWRU) bearing dataset](https://engineering.case.edu/bearingdatacenter),  [the Paderborn University (PU) bearing dataset](https://mb.uni-paderborn.de/en/kat/main-research/datacenter/bearing-datacenter/data-sets-and-download), and
 [the University of Ottawa (uOttawa) bearing dataset](https://data.mendeley.com/datasets/v43hmbwxpm/2). These datasets are selected to simulate various practical situations regarding defect types, rotational speed conditions, and data sampling rate. <br>
 
+## Codes:
+
+A separate Jupyter notebook is provided for each of the three datasets. Functions for processing .mat vibration files and creating training/testing datasets are included notebooks as well.<br>
+
+### Datasets:<br>
+[the Case Western Reserve University (CWRU) bearing dataset](https://engineering.case.edu/bearingdatacenter)<br>
+[the Paderborn University (PU) bearing dataset](https://mb.uni-paderborn.de/en/kat/main-research/datacenter/bearing-datacenter/data-sets-and-download)<br>
+[the University of Ottawa (uOttawa) bearing dataset](https://data.mendeley.com/datasets/v43hmbwxpm/2)<br>
+
+### Python Codes:<br>
+[Code for the CWRU dataset](https://github.com/Western-OC2-Lab/Vibration-Based-Fault-Diagnosis-with-Low-Delay/blob/main/Code_CWRU_Dataset.ipynb)<br>
+[Code for the PU dataset](https://github.com/Western-OC2-Lab/Vibration-Based-Fault-Diagnosis-with-Low-Delay/blob/main/Code_PU_Dataset.ipynb)<br>
+[Code for the uOttawa dataset](https://github.com/Western-OC2-Lab/Vibration-Based-Fault-Diagnosis-with-Low-Delay/blob/main/Code_uOttawa_Dataset.ipynb)<br>
+
+
+
+
 ## Contact Information
 For all inquiries or collaboration opportunities please contact: <br>
 
 Email : saburakh@uwo.ca or Abdallah.Shami@uwo.ca <br>
 Github: [SulAburakhia](https://github.com/SulAburakhia) or [Western OC2 Lab](https://github.com/Western-OC2-Lab) <br>
 Google Scholar: [OC2 Lab](https://scholar.google.com.eg/citations?user=oiebNboAAAAJ&hl=en); [Sulaiman Aburakhia](https://scholar.google.com/citations?user=8x-pPSYAAAAJ&hl=en)
+
+
+
 
 ## Citation
 
@@ -47,6 +67,9 @@ S. Aburakhia, R. Myers and A. Shami, *"A Hybrid Method for Condition Monitoring 
   pages={1-1},
   doi={10.1109/TIM.2022.3198477}}
  ```
+
+
+
 ## Publication
 
 <ul>
