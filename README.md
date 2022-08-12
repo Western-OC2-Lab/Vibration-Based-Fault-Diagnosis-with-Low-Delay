@@ -6,6 +6,12 @@ Organization: The Optimized Computing and Communications (OC2) Lab, ECE Departme
 
 The system delay of a vibration-based condition monitoring system can be defined as ***the time the system takes to acquire input vibration segment and classify or predict the operational condition of the current state of the equipment***. In vibration-based monitoring, the current state is represented by the input segment of the generated vibration signal. Accordingly, the system delay is the sum of the time duration of input segment and the online processing time. 
 
+
+<p float>
+<img src="https://github.com/Western-OC2-Lab/Vibration-Based-Fault-Diagnosis-with-Low-Delay/blob/main/Figure_01.png"/> 
+</p>
+
+
 <ul>
 <li>The time duration of the input segment depends on number of data points in the segment. 
 <li>The online processing time is algorithm-dependent; it involves two tasks, feature extraction (including pre-processing) and condition prediction/classification. <br>
@@ -19,6 +25,10 @@ Hence, online processing time can be generally viewed as a function of the numbe
 </ol>
 
 Accordignally, the paper utilizes wavelet decomposition and Fourier analysis, and proposes a hybrid method to fulfill the aforementioned requirements and extract a small number of highly discriminative features from short-duration vibration signals.<bR>
+  
+<p>
+<img src="https://github.com/Western-OC2-Lab/Vibration-Based-Fault-Diagnosis-with-Low-Delay/blob/main/Figure_02.png"/> 
+</p>  
   
 The Performance of the proposed method is evaluated on [the Case Western Reserve University (CWRU) bearing dataset](https://engineering.case.edu/bearingdatacenter),  [the Paderborn University (PU) bearing dataset](https://mb.uni-paderborn.de/en/kat/main-research/datacenter/bearing-datacenter/data-sets-and-download), and
 [the University of Ottawa (uOttawa) bearing dataset](https://data.mendeley.com/datasets/v43hmbwxpm/2). These datasets are selected to simulate various practical situations regarding defect types, rotational speed conditions, and data sampling rate. <br>
