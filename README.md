@@ -16,7 +16,7 @@ The system delay $\tau_d$ of a vibration-based condition monitoring system can b
 <li>The time duration of the input segment depends on number of data points in the segment. 
 <li>The online processing time is algorithm-dependent; it involves two tasks, feature extraction (including pre-processing) and condition prediction/classification. <br>
 </ul>
-Hence, online processing time can be generally viewed as a function of the number of data points in the input segment, the size of extracted features, and available computing resources. Hence, designing a condition monitoring system with low system delay involves three main requirements: <br>
+Hence, online processing time can be generally viewed as a function of the number of data points in the input segment, the size of extracted features, and available computing resources. Thus, designing a condition monitoring system with low system delay involves three main requirements: <br>
 
 <ol>
   <li>Extracting features of high sensitivity to fault-related transients to improve system accuracy.</li>
