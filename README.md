@@ -24,7 +24,9 @@ Hence, online processing time can be generally viewed as a function of the numbe
   <li>Utilizing input vibration segments of relatively short time duration or equivalently, of small number of data points.</li>
 </ol>
 
-Accordignally, the paper utilizes wavelet decomposition and Fourier analysis, and proposes a hybrid method to fulfill the aforementioned requirements and extract a small number of highly discriminative features from short-duration vibration signals. For more details, please refer to [the paper.](https://ieeexplore.ieee.org/document/9855510)<bR>
+Accordingly, the paper utilizes wavelet decomposition and Fourier analysis, and proposes a hybrid method to fulfill the aforementioned requirements and extract a small number of highly discriminative features from short-duration vibration signals. The first step involves decomposing the input vibration segment using $k$-level Wavelet Packet Transform (WPT). Accordingly, $2^k$ elementary waveforms of lower and higher frequency sub-bands are reconstructed from individual wavelet coefficients.
+In the second step, Fast Fourier Transform (FFT) is applied to the resultant waveforms to obtain the spectral contents of each waveform. Hence, a
+feature vector of size $S=1×(m×2^k)$ can be reconstructed by utilizing the first $m$ dominant frequency components in the spectrum of each waveform. For more details, please refer to [the paper.](https://ieeexplore.ieee.org/document/9855510)<bR>
   
 <p>
 <img src="https://github.com/Western-OC2-Lab/Vibration-Based-Fault-Diagnosis-with-Low-Delay/blob/main/Figure_02.png"/> 
