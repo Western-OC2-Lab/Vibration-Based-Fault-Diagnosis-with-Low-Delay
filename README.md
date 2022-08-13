@@ -37,7 +37,7 @@ The Performance of the proposed method is evaluated on [the Case Western Reserve
 
 ## Codes and Datasets:
 
-A separate Jupyter notebook is provided for each of the three datasets. Functions for processing .mat vibration files and creating training/testing datasets are included notebooks as well.<br>
+A separate Jupyter notebook is provided for each of the three datasets. Functions for processing .mat vibration files and creating training/testing datasets are included in the notebooks as well.<br>
 
 ### Datasets:<br>
 [the Case Western Reserve University (CWRU) bearing dataset](https://engineering.case.edu/bearingdatacenter)<br>
