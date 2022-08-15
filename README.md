@@ -84,6 +84,5 @@ S. Aburakhia, R. Myers and A. Shami, *"A Hybrid Method for Condition Monitoring 
 
 ## Publication
 
-<ul>
-<li>Pre-print available  is avialbe [here](https://arxiv.org/abs/2208.06051)
- </ul>
+Pre-print is available [here](https://arxiv.org/abs/2208.06051). <br>
+
