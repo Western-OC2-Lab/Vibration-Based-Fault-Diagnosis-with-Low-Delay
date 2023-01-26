@@ -69,15 +69,15 @@ If you find this repository useful in your research, please cite as:
 S. A. Aburakhia, R. Myers and A. Shami, "A Hybrid Method for Condition Monitoring and Fault Diagnosis of Rolling Bearings With Low System Delay," in IEEE Transactions on Instrumentation and Measurement, vol. 71, pp. 1-13, 2022, Art no. 3519913, doi: 10.1109/TIM.2022.3198477.
 
 ```
-@ARTICLE{9855510,
-  author={Aburakhia, Sulaiman A. and Myers, Ryan and Shami, Abdallah},
-  journal={IEEE Transactions on Instrumentation and Measurement}, 
-  title={A Hybrid Method for Condition Monitoring and Fault Diagnosis of Rolling Bearings With Low System Delay}, 
+@INPROCEEDINGS{10019121,
+  author={Aburakhia, Sulaiman and Tayeh, Tareq and Myers, Ryan and Shami, Abdallah},
+  booktitle={2022 5th International Conference on Communications, Signal Processing, and their Applications (ICCSPA)}, 
+  title={Similarity-Based Predictive Maintenance Framework for Rotating Machinery}, 
   year={2022},
-  volume={71},
+  volume={},
   number={},
-  pages={1-13},
-  doi={10.1109/TIM.2022.3198477}}
+  pages={1-6},
+  doi={10.1109/ICCSPA55860.2022.10019121}}
 ```
 
 
