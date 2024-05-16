@@ -32,7 +32,7 @@ feature vector of size $S=1×(m×2^k)$ can be reconstructed by utilizing the fir
 <img src="https://github.com/Western-OC2-Lab/Vibration-Based-Fault-Diagnosis-with-Low-Delay/blob/main/Figure_02.png"/> 
 </p>  
   
-The Performance of the proposed method is evaluated on [the Case Western Reserve University (CWRU) bearing dataset](https://engineering.case.edu/bearingdatacenter),  [the Paderborn University (PU) bearing dataset](https://mb.uni-paderborn.de/en/kat/main-research/datacenter/bearing-datacenter/data-sets-and-download), and
+The Performance of the proposed method is evaluated on [the Case Western Reserve University (CWRU) bearing dataset](https://engineering.case.edu/bearingdatacenter),  [the Paderborn University (PU) bearing dataset](https://mb.uni-paderborn.de/kat/forschung/kat-datacenter/bearing-datacenter/data-sets-and-download), and
 [the University of Ottawa (uOttawa) bearing dataset](https://data.mendeley.com/datasets/v43hmbwxpm/2). These datasets are selected to simulate various practical situations regarding defect types, rotational speed conditions, and data sampling rate. <br>
 
 ## Codes and Datasets:
@@ -41,7 +41,7 @@ A separate Jupyter notebook is provided for each of the three datasets. Function
 
 ### Datasets:<br>
 [the Case Western Reserve University (CWRU) bearing dataset](https://engineering.case.edu/bearingdatacenter)<br>
-[the Paderborn University (PU) bearing dataset](https://mb.uni-paderborn.de/en/kat/main-research/datacenter/bearing-datacenter/data-sets-and-download)<br>
+[the Paderborn University (PU) bearing dataset](https://mb.uni-paderborn.de/kat/forschung/kat-datacenter/bearing-datacenter/data-sets-and-download)<br>
 [the University of Ottawa (uOttawa) bearing dataset](https://data.mendeley.com/datasets/v43hmbwxpm/2)<br>
 
 ### Python Codes:<br>
